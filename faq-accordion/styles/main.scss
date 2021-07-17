@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #AF67E9 0%, #6565E7 100%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+  height: 100vh;
+}
+
+.faq {
+  background: #FFF;
+
+  width: 75%;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 40px;
+
+  .image-illustration {
+    // background: red;
+
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    flex-direction: column;
+
+    position: relative;
+
+    background: 
+      url("/assets/images/illustration-woman-online-desktop.svg") no-repeat,
+      url("/assets/images/bg-pattern-desktop.svg") no-repeat, 
+    ;
+    background-size: 100%, 150%;
+    background-position-y: 40px, 80%;
+    background-position-x: -100px , 130%;
+  
+
+    .box-desktop {
+      position: absolute;
+
+      width: 35%;
+
+      left: -130px;
+      bottom: 25%;
+
+    }
+  }
+
+  .faq-list-container {
+    background: purple;
+
+    width: 50%;
+    height: 85%;
+    
+    display: flex;
+    align-items: center;
+  }
+}
